@@ -27,7 +27,10 @@ Rodar a imagem:
 - docker run -d --name giropops-senhas -p 5000:5000 giropops-senhas:1.0
 
 Resolvendo o problema do redis-host:
-- (Em Breve)
+- docker run -d --name redis -p 6379:6379 redis
 
 Remover todos os containers e imagem não utilizados:
 - docker system prune -a
+
+Ver logs
+- docker container logs giropops-senhas
