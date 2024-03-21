@@ -23,6 +23,9 @@ Criar imagem (Dockerfile):
 Buildar imagem:
 - docker image build -t giropops-senhas:1.0 .
 
+Rodar a imagem:
+- docker run -d --name giropops-senhas -p 5000:5000 giropops-senhas:1.0
+
 Resolvendo o problema do redis-host:
 - (Em Breve)
 
