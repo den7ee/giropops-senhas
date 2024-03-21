@@ -29,8 +29,14 @@ Rodar a imagem:
 Resolvendo o problema do redis-host:
 - docker run -d --name redis -p 6379:6379 redis
 
+Verificar se redis-host está rodando:
+- curl localhost:6379
+
 Remover todos os containers e imagem não utilizados:
 - docker system prune -a
 
 Ver logs
 - docker container logs giropops-senhas
+
+Colocando a variável de ambiente para resolver o erro 500:
+- (Em Breve)
