@@ -31,7 +31,14 @@ Resolvendo o problema do redis-host:
 
 Verificar se redis-host está rodando:
 - curl localhost:6379
+- curl ip localhost:6379
 
+Abrir um shell dentro do container:
+- docker exec -ti container-id bash
+
+Exportar a variavél redis host de dentro do container:
+- export REDIS_HOST=127.0.0.1
+  
 Remover todos os containers e imagem não utilizados:
 - docker system prune -a
 
