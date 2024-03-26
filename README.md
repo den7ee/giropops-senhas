@@ -9,17 +9,6 @@ Troubleshooting:
 - curl localhost
 - ss -atunpp | grep 6379
 
-Criar imagem (Dockerfile):
-- FROM python:3.11
-- WORKDIR /app
-- COPY requirements.txt .
-- COPY app.py .
-- COPY templates templates/
-- COPY static static/
-- RUN pip install --no-cache-dir -r requirements.txt
-- EXPOSE 5000
-- CMD ["flask", "run", "--host=0.0.0.0"]
-
 Buildar imagem:
 - docker image build -t giropops-senhas:1.0 .
 
@@ -47,3 +36,11 @@ Ver logs
 
 Colocando a variável de ambiente para resolver o erro 500:
 - (Em Breve)
+
+Git
+- git clone
+- Você pode remover com: git remote remove origin
+- adicionar um novo com o novo endereço: git remote add origin git://suaUrl
+- Alterar o diretório remoto: git remote set-url origin git://suaUrl
+- renomeá-lo o atual e adicionar um novo: git remote rename origin old-origin, git remote add origin novaurl
+
