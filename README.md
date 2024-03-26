@@ -43,4 +43,6 @@ Git
 - adicionar um novo com o novo endereço: git remote add origin git://suaUrl
 - Alterar o diretório remoto: git remote set-url origin git://suaUrl
 - renomeá-lo o atual e adicionar um novo: git remote rename origin old-origin, git remote add origin novaurl
+- git push origin branch
+
 
