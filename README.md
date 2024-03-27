@@ -1,3 +1,5 @@
+
+
 Buildar imagem:
 - docker image build -t giropops-senhas:1.0 .
 
@@ -10,6 +12,7 @@ Troubleshooting:
 - curl ip
 - curl localhost
 - ss -atunpp | grep 6379
+- ip a 
 
 Abrir um shell dentro do container:
 - docker exec -ti container-id bash
