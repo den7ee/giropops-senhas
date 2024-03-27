@@ -37,12 +37,4 @@ Ver logs
 Colocando a variável de ambiente para resolver o erro 500:
 - (Em Breve)
 
-Git
-- git clone
-- Você pode remover com: git remote remove origin
-- adicionar um novo com o novo endereço: git remote add origin git://suaUrl
-- Alterar o diretório remoto: git remote set-url origin git://suaUrl
-- renomeá-lo o atual e adicionar um novo: git remote rename origin old-origin, git remote add origin novaurl
-- git push origin branch
-
 
