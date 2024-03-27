@@ -37,5 +37,5 @@ Ver logs
 Colocando a variável de ambiente para resolver o erro 500:
 - (Em Breve)
 
-- Localizando IP do container
-docker container inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' [container_name|id]
+Localizando IP do container
+- docker container inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' [container_name|id]
